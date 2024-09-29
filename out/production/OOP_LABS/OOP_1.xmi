@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_eN23QHVvEe6eeKxjLyyT3w" name="oop">
+  <eAnnotations xmi:id="_eN23QXVvEe6eeKxjLyyT3w" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_eN23QnVvEe6eeKxjLyyT3w" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_eN23Q3VvEe6eeKxjLyyT3w" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eN23RHVvEe6eeKxjLyyT3w" name="Customer">
+    <ownedAttribute xmi:id="_eN23RXVvEe6eeKxjLyyT3w" name="loginId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23RnVvEe6eeKxjLyyT3w" name="email" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23R3VvEe6eeKxjLyyT3w" name="firstName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23SHVvEe6eeKxjLyyT3w" name="lastName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23SXVvEe6eeKxjLyyT3w" name="adress" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23SnVvEe6eeKxjLyyT3w" name="phoneNo" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23S3VvEe6eeKxjLyyT3w" name="password" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_eN23THVvEe6eeKxjLyyT3w" name="login" visibility="public"/>
+    <ownedOperation xmi:id="_eN23TXVvEe6eeKxjLyyT3w" name="logout" visibility="public"/>
+    <ownedOperation xmi:id="_eN23TnVvEe6eeKxjLyyT3w" name="signUp" visibility="public"/>
+    <ownedOperation xmi:id="_eN23T3VvEe6eeKxjLyyT3w" name="viewProduct" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eN23UHVvEe6eeKxjLyyT3w" name="Order">
+    <ownedAttribute xmi:id="_eN23UXVvEe6eeKxjLyyT3w" name="orderId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23UnVvEe6eeKxjLyyT3w" name="orderNo" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23U3VvEe6eeKxjLyyT3w" name="datePlaced" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23VHVvEe6eeKxjLyyT3w" name="dateDeliver" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23VXVvEe6eeKxjLyyT3w" name="return" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23VnVvEe6eeKxjLyyT3w" name="customerName" visibility="public" type="_eN23RHVvEe6eeKxjLyyT3w" isUnique="false"/>
+    <ownedAttribute xmi:id="_eN23V3VvEe6eeKxjLyyT3w" name="status" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23WHVvEe6eeKxjLyyT3w" name="orderDetail" visibility="public" type="_eN23YnVvEe6eeKxjLyyT3w" isUnique="false"/>
+    <ownedOperation xmi:id="_eN23WXVvEe6eeKxjLyyT3w" name="orderDetail" visibility="public"/>
+    <ownedOperation xmi:id="_eN23WnVvEe6eeKxjLyyT3w" name="shippingDetail" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eN23W3VvEe6eeKxjLyyT3w" name="Menu">
+    <ownedAttribute xmi:id="_eN23XHVvEe6eeKxjLyyT3w" name="men" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23XXVvEe6eeKxjLyyT3w" name="women" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23XnVvEe6eeKxjLyyT3w" name="kids" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23X3VvEe6eeKxjLyyT3w" name="profile" visibility="public" type="_eN23RHVvEe6eeKxjLyyT3w" isUnique="false"/>
+    <ownedAttribute xmi:id="_eN23YHVvEe6eeKxjLyyT3w" name="sale" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_eN23YXVvEe6eeKxjLyyT3w" name="displayMenu" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eN23YnVvEe6eeKxjLyyT3w" name="Cart">
+    <ownedAttribute xmi:id="_eN23Y3VvEe6eeKxjLyyT3w" name="qty" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23ZHVvEe6eeKxjLyyT3w" name="payment" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23ZXVvEe6eeKxjLyyT3w" name="subtotal" visibility="private" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23ZnVvEe6eeKxjLyyT3w" name="items" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_eN23Z3VvEe6eeKxjLyyT3w" name="discount" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_eN23aHVvEe6eeKxjLyyT3w" name="addItem" visibility="public"/>
+    <ownedOperation xmi:id="_eN23aXVvEe6eeKxjLyyT3w" name="removeItem" visibility="public"/>
+    <ownedOperation xmi:id="_eN23anVvEe6eeKxjLyyT3w" name="viewCart" visibility="public"/>
+    <ownedOperation xmi:id="_eN23a3VvEe6eeKxjLyyT3w" name="applyVoucher" visibility="public"/>
+    <ownedOperation xmi:id="_eN23bHVvEe6eeKxjLyyT3w" name="checkout" visibility="public"/>
+    <ownedOperation xmi:id="_eN23bXVvEe6eeKxjLyyT3w" name="confirmAdress" visibility="public"/>
+    <ownedOperation xmi:id="_eN23bnVvEe6eeKxjLyyT3w" name="payment" visibility="public"/>
+    <ownedOperation xmi:id="_eN23b3VvEe6eeKxjLyyT3w" name="display" visibility="public"/>
+    <ownedOperation xmi:id="_eN23cHVvEe6eeKxjLyyT3w" name="updateQuantity" visibility="public"/>
+  </packagedElement>
+</uml:Model>
